@@ -1,3 +1,5 @@
 Set up instructions
-1-Create database, tables and insert data using script.sql
-2-Modify connection string on Web.config on GSCodingChallenge project
+1-On SQL Server, create database , tables and insert data using script.sql
+2-Open project in Visual Studio and modify connection string on Web.config
+	<add name="GSDBModels" connectionString="data source=YOURSERVER;initial catalog=UserProjectsDB;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework" providerName="System.Data.SqlClient" />
+3-Run the project	
